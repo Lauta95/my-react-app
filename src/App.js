@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import ExerciseComponent from './components/ExerciseComponent';
+import NavBar from './components/nav.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>
-          test
-        </div>
+        <NavBar />
+        <ExerciseComponent />
       </header>
     </div>
   );
